@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alice&family=Prata&family=Trirong&family=Alegreya+Sans&display=swap"
+        rel="stylesheet">
+    <script src="./script.js"></script>
+    <title>Mr. Einstein</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="navigation" class="headernav">
+            <a href="#" class="logo">Mr. Einstein</a>
+            <a href="#aboutme">About Me</a>
+            <a href="#books">Books</a>
+            <a href="#papers">Papers</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#awards">Awards</a>
+            <a href="#blogs">Blogs</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+                <i class="fa fa-bars"></i></a>
+        </nav>
+
+        <section id="aboutme" href="aboutme">
+            <div class="sectionheadingcontainer">
+                <p class="sectionheading">About Me</p>
+            </div>
+
+            <div id="profilepiccontainer">
+                <img src="./Assets/Images/Profile_Picture.jpg" alt="Einstien's image" id="profilepic">
+            </div>
+
+            <div id="introcontainer">
+                <p class="intro">
+                    Hello, I am <em><b>Albert Einstein</b></em> and I was born at Ulm, in Wurttemberg, Germany, on March 14, 1879.
+                    I was grew up in Munich, where my father founded an electrical engineering company.
+                    After studying at the ETH university in Zurich, I worked at the patent office 
+                    in Bern, during which time I produced several pioneering works in the field of physics. 
+                </p>
+                <p class="intro">
+                    I am a German-born theoretical physicist who is widely held as one of the most influential scientists. 
+                    I am Best known for developing the theory of relativity, I also made important contributions to 
+                    quantum mechanics. My mass-energy equivalence formula E = mc^2, which arises from special relativity, 
+                    has been called "the world's most famous equation". I received the 1921 Nobel Prize in Physics 
+                    "for my services to theoretical physics, and especially for his discovery of the law of the 
+                    photoelectric effect", a pivotal step in the development of quantum theory. I received the 1921 Nobel Prize in Physics.
+                    My Famous Quotations are: We cannot solve our problems with the same thinking we used when we created them. <em><b>"Learn from yesterday, 
+                    live for today, hope for tomorrow. The important thing is not to stop questioning."</b></em>
+                </p>
+            </div>
+        </section>
+
+        <section id="books" href="books">
+            <p class="sectionheading">Books</p>
+            <div class="bookscontainer">
+                <div class="bookholder">
+                    <img src="./Assets/Images/Books/Book_1.jpg" alt="This is a book image">
+                    <p class="bookname">The Principle of Relativity</p>
+                    <p class="year"><b>Published Year: </b>1952</p>
+                </div>
+
+                <div class="bookholder">
+                    <img src="./Assets/Images/Books/Book_2.jpg" alt="This is a book image">
+                    <p class="bookname">Ideas and Opinions</p>
+                    <p class="year"><b>Published Year: </b>1922</p>
+                </div>
+
+                <div class="bookholder">
+                    <img src="./Assets/Images/Books/Book_3.jpg" alt="This is a book image">
+                    <p class="bookname">Out of My Later Years</p>
+                    <p class="year"><b>Published Year: </b>1950</p>
+                </div>
+
+                <div class="bookholder">
+                    <img src="./Assets/Images/Books/Book_4.jpg" alt="This is a book image">
+                    <p class="bookname">Sidelights on Relativity</p>
+                    <p class="year"><b>Published Year: </b>1983</p>
+                </div>
+
+                <div class="bookholder">
+                    <img src="./Assets/Images/Books/Book_5.jpg" alt="This is a book image">
+                    <p class="bookname">The Evolution of Physics</p>
+                    <p class="year"><b>Published Year: </b>1967</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="papers" href="papers">
+            <p class="sectionheading">Papers</p>
+            <div class="papercontainer">
+                <div class="paperholder">
+                    <div class="paperimage">
+                        <img src="./Assets/Images/Research_Paper.png" alt="This is a paper image">
+                    </div>
+
+                    <div class="paperdesc">
+                        <p class="papername">On the Electrodynamics of Moving Bodies </p>
+                        <p class="paperyear"><b>Year:</b>1905</p>
+                        <ul>
+                            <li>
+                                <p class="aboutpaper">
+                                    Introduced the concept of special relativity, proposing that 
+                                    speed of light is constant for all observers. 
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="paperholder">
+                    <div class="paperimage">
+                        <img src="./Assets/Images/Research_Paper.png" alt="This is a paper image">
+                    </div>
+                    <div class="paperdesc">
+                        <p class="papername">A Heuristic Viewpoint Concerning the Production and Transformation of Light </p>
+                        <p class="paperyear"><b>Year:</b>1905</p>
+                        <ul>
+                            <li>
+                                <p class="aboutpaper">
+                                    Explained photoelectric effect by suggesting light is composed of discrete 
+                                    particles. 
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="papercontainer" id="papercont2">
+                <div class="paperholder">
+                    <div class="paperimage">
+                        <img src="./Assets/Images/Research_Paper.png" alt="This is a paper image">
+                    </div>
+                    <div class="paperdesc">
+                        <p class="papername">Mass-Energy Equivalence Paper</p>
+                        <p class="paperyear"><b>Year:</b>1905</p>
+                        <ul>
+                            <li>
+                                <p class="aboutpaper">
+                                    Derived the famous equation E=mc², demonstrating that mass and 
+                                    energy are interchangeable.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="paperholder">
+                    <div class="paperimage">
+                        <img src="./Assets/Images/Research_Paper.png" alt="This is a paper image">
+                    </div>
+                    <div class="paperdesc">
+                        <p class="papername">General Theory of Relativity</p>
+                        <p class="paperyear"><b>Year:</b>1905</p>
+                        <ul>
+                            <li>
+                                <p class="aboutpaper">
+                                    Expanded on special relativity to incorporate gravity, 
+                                    introducing the concept of curved spacetime. 
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="hobbies" href="hobbies">
+            <p class="sectionheading">Hobbies</p>
+            <div class="hobbiescontainer">
+                <div class="hobbieholder">
+                    <img src="./Assets/Images/Hobbies/Violin.webp">
+                    <button disabled>Playing Violin</button>
+                </div>
+                <div class="hobbieholder">
+                    <img src="./Assets/Images/Hobbies/Football.webp">
+                    <button disabled>Playing Football</button>
+                </div>
+                <div class="hobbieholder">
+                    <img src="./Assets/Images/Hobbies/Cooking.avif">
+                    <button disabled>Cooking Food</button>
+                </div>
+                <div class="hobbieholder">
+                    <img src="./Assets/Images/Hobbies/Music.jpg">
+                    <button disabled>Listening Music</button>
+                </div>
+                <div class="hobbieholder">
+                    <img src="./Assets/Images/Hobbies/Meditation.png">
+                    <button disabled>Meditation</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" href="gallery">
+            <p class="sectionheading">Gallery</p>
+            <div class="gallerycontainer">
+                <img src="./Assets/Images/Gallery/img_01.webp" alt="Gallery">
+                <img src="./Assets/Images/Gallery/img_02.webp" alt="Gallery">
+                <img src="./Assets/Images/Gallery/img_03.webp" alt="Gallery">
+                <img src="./Assets/Images/Gallery/img_04.webp" alt="Gallery">
+                <img src="./Assets/Images/Gallery/img_05.webp" alt="Gallery">
+                <img src="./Assets/Images/Gallery/img_06.webp" alt="Gallery">
+                <img src="./Assets/Images/Gallery/img_06.jpg" alt="Gallery">
+                <img src="./assets/images/Gallery/img_04.jpg" alt="Gallery">
+                <img src="assets/images/Gallery/img_05.jpg" alt="Gallery">
+            </div>
+        </section>
+
+        <section id="awards" href="awards">
+            <p class="sectionheading">Awards</p>
+            <div class="awardscontainer">
+                <div class="awardholder">
+                    <img src="./Assets/Images/Awards/Gold-Medal.gif" alt="This is a Gold Medal Image">
+                    <p>Gold Medal (1926)</p>
+
+                </div>
+                <div class="awardholder">
+                    <img src="./Assets/Images/Awards/Franklin-Medal.jpg" alt="This is Franklin Medal image">
+                    <p>Franklin Medal (1935)</p>
+                </div>
+                <div class="awardholder" id="frankin-cont">
+                    <img src="./Assets/Images/Awards/Max-Plank-Medal.jpg" alt="This is Max-Plank-Medal image">
+                    <p>Max-Planck-Medal (1929) </p>
+                </div>
+                <div class="awardholder">
+                    <img src="./Assets/Images/Awards/NobelPrize.jpg" alt="This is Nobel Prize image">
+                    <p>Nobel Prize in Physics (1921)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blogs" href="blogs">
+            <p class="sectionheading">Blogs</p>
+            <div class="blogscontainer">
+                <div class="blogholder">
+                    <img src="./Assets/Images/Blogs/History-of-Black-Holes.jpg" alt="This is a history of black holes image">
+                    <div class="blogcontentholder">
+                        <p class="blogheader">
+                            The History of Black Holes
+                        </p>
+                        <p class="blogcontent">
+                            Black holes are regions of spacetime where gravity is so intense that nothing can escape, 
+                            not even light. The boundary where the curvature of spacetime inevitably leads into the 
+                            black hole is known as the event horizon.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blogscontainer">
+                <div class="blogholder">
+                    <img src="./Assets/Images/Blogs/Time-in-Physics.jpg" alt="This is a Time in Physics Image">
+                    <div class="blogcontentholder">
+                        <p class="blogheader">
+                            Time In Physics
+                        </p>
+                        <p class="blogcontent">
+                            In classical physics, time was viewed as an absolute and universal quantity, flowing at a 
+                            constant rate independent of external factors. This notion, proposed by Sir Isaac Newton, 
+                            treated time as separate from space, forming the backdrop against which physical events unfold.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blogscontainer">
+                <div class="blogholder">
+                    <img src="./Assets/Images/Blogs/Time-and-light.jpg" alt="This is a Time and Light Image">
+                    <div class="blogcontentholder">
+                        <p class="blogheader">
+                            Time And Light
+                        </p>
+                        <p class="blogcontent">
+                            Light Clocks in Stationary and Moving Frames of Reference Albert Einstein based his 
+                            special theory of relativity on the concept that the speed of light is a universal constant. 
+                            It's built upon two postulates: (1) the laws of physics , and (2) the speed of light in a vacuum is constant.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="scroll-to-top">
+            <a href="#top" class="scroll-to-top">↑</a>
+        </div>
+    </div>
+</body>
+
+</html>
